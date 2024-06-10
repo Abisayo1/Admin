@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282616889994",
+    "project_id": "admin-5d261",
+    "storage_bucket": "admin-5d261.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282616889994:android:34d2a0f04410e32cee2373",
+        "android_client_info": {
+          "package_name": "com.abisayo.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZmwhw3zZ2_DBM53dfnudH3E8YqGakMPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282616889994:android:b437cdd1291f2aecee2373",
+        "android_client_info": {
+          "package_name": "com.app.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZmwhw3zZ2_DBM53dfnudH3E8YqGakMPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
