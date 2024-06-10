@@ -38,7 +38,7 @@ class CreateAccountActivity : AppCompatActivity() {
                 if (pass == confirmPass){
                     firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
                         if (it.isSuccessful) {
-                            val intent = Intent(this, UploadCredentialsActivity::class.java)
+                            val intent = Intent(this, SelectPathActivity::class.java)
                             startActivity(intent)
 
                         }else {

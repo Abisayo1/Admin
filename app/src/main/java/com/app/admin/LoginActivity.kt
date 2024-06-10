@@ -40,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
             if (email.isNotEmpty() && pass.isNotEmpty()) {
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        val intent = Intent(this, UploadCredentialsActivity::class.java)
+                        val intent = Intent(this, SelectPathActivity::class.java)
                         startActivity(intent)
 
                     }else {
@@ -56,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         if (firebaseAuth.currentUser != null) {
-            val intent = Intent(this, UploadCredentialsActivity::class.java)
+            val intent = Intent(this, SelectPathActivity::class.java)
             startActivity(intent)
         }
     }

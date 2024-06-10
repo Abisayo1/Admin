@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/work"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Admission Status"
+        android:padding="16dp"
+        android:backgroundTint="#0455BF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Process Admission"
+        android:padding="16dp"
+        android:backgroundTint="#0455BF"
+        android:layout_marginBottom="16dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#0455BF"-->
+<!--        android:text="Button 3"-->
+<!--        android:background="@drawable/rounded_button"/>-->
+
+</LinearLayout>
