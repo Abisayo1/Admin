@@ -2,10 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center"
     android:id="@+id/main"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".SelectPathActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -21,6 +23,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="Admission Status"
+        android:onClick="biomAUth"
         android:padding="16dp"
         android:backgroundTint="#0455BF"
         android:layout_marginBottom="16dp"/>

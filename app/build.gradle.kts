@@ -7,6 +7,7 @@ plugins {
 android {
     namespace = "com.app.admin"
     compileSdk = 34
+    compileSdkPreview = "VanillaIceCream"
 
     defaultConfig {
         applicationId = "com.app.admin"
@@ -53,4 +54,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.androidx.biometric.ktx)
 }
